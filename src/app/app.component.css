@@ -1,0 +1,23 @@
+
+
+div{
+    width: 100px;
+    height: 100px;
+    background: #002312; 
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+
+    
+    margin: 0 auto; 
+    margin-top: 20%;
+}
+
+#timer {
+    color:#fff;
+    line-height: 100px;
+    
+    
+}
+
+
+

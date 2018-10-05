@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-app';
+  title = 'MY-APP';
 }
+
+
+//setInterval("timer.innerHTML=new Date().toLocaleTimeString()");
+window.onload = function()
+{
+  setInterval("timer.innerHTML=new Date().toLocaleTimeString()",1000);
+}
+  
+
+  
