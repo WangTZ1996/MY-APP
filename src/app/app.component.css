@@ -1,23 +1,30 @@
 
-
-div{
+#box {
     width: 100px;
     height: 100px;
     background: #002312; 
     border: 2px solid #ff0000;
     border-radius: 10px;
-
-    
-    margin: 0 auto; 
-    margin-top: 20%;
+    position: relative;
+    margin: auto;
 }
 
 #timer {
     color:#fff;
     line-height: 100px;
-    
-    
+    text-align: center;             /*今天的小成果，文本居中显示*/
+    margin: auto;
+
 }
 
+#box:hover{
+    background-color: #00ff00;
 
+}
 
+/* .flex-container{
+    display: flex;
+    flex-direction: column;
+} */
+
+/*div 元素垂直居中显示还是没有实现出来。*/

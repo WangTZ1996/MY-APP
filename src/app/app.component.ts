@@ -10,11 +10,7 @@ export class AppComponent {
 }
 
 
-//setInterval("timer.innerHTML=new Date().toLocaleTimeString()");
-window.onload = function()
-{
-  setInterval("timer.innerHTML=new Date().toLocaleTimeString()",1000);
-}
-  
+setInterval("timer.innerHTML=new Date().toLocaleTimeString()",1000);
 
   
+
