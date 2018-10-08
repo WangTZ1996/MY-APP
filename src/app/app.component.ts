@@ -10,7 +10,3 @@ export class AppComponent {
 }
 
 
-setInterval("timer.innerHTML=new Date().toLocaleTimeString()",1000);
-
-  
-
